@@ -1,0 +1,149 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+/* SITE WIDE STYLING */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #1fabe5;
+}
+
+hr {
+    background-color: #ddd;
+    border: none;
+    height: 4px;
+    margin-top: 20px;
+
+}
+
+/* BORDER (WRAPS SITE) */
+
+body {
+    margin: 0px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #ffd24a;
+}
+
+/* HEADER */
+
+h2 {
+    padding-top: 30px;
+}
+
+#logo img {
+    margin: 10px 0px;
+}
+
+#site_header {
+    border: 20px;
+    margin: -20px;
+    padding: 20px 20px;
+    background-color: #ff8523;
+}
+
+/* NAV */
+
+.main_navigation a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: white;
+    padding: 10px 30px;
+    margin: 20px 0px;
+}
+
+/* MAIN CONTENT (ABOUT) */
+
+li {
+    font-weight: bold;
+}
+
+/* TABLE */
+
+table {
+    border-style: solid;
+    border-width: thin;
+    border-color: #1fabe5;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead tr td {
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #046c97;
+    background-color: #1fabe5;
+    color: white;
+}
+
+tbody tr td {
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1fabe5;
+}
+
+td img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+/* FORM */
+
+form {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.name {
+    background-color: #ff8523;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0  px;
+    padding: 20px 20px;
+}
+
+.city_container {
+    margin: 10px 0px;
+}
+
+#submit_button {
+    background-color: #1fabe5;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+textarea {
+    border-style: solid;
+    border-width: thin;
+    border-color: #1fabe5;
+}
